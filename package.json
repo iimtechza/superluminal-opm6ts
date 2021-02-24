@@ -1,0 +1,21 @@
+{
+  "name": "brief",
+  "version": "0.0.1",
+  "dependencies": {
+    "antd": "^4.12.3",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "tachyons": "^4.12.0",
+    "apeq-forms": "file:./src/modules/Forms/index.js",
+    "apeq-ui": "file ./src/modules/Ui/index.js"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
